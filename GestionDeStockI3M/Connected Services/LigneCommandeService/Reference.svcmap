@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="cb9a1ae6-4747-415c-80c0-8fb438c475a2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61056/LigneCommandeServiceWCF.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="LigneCommandeServiceWCF.xsd" MetadataType="Schema" ID="86fa2d60-02e8-404c-a571-1504b11ff204" SourceId="1" SourceUrl="http://localhost:61056/LigneCommandeServiceWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="LigneCommandeServiceWCF1.xsd" MetadataType="Schema" ID="9a6e9564-ff3c-42e9-ba2a-8ee7436e53b9" SourceId="1" SourceUrl="http://localhost:61056/LigneCommandeServiceWCF.svc?xsd=xsd1" />
+    <MetadataFile FileName="LigneCommandeServiceWCF.wsdl" MetadataType="Wsdl" ID="fa4082be-12be-4270-8995-905e9ddc7c2f" SourceId="1" SourceUrl="http://localhost:61056/LigneCommandeServiceWCF.svc?wsdl" />
+    <MetadataFile FileName="LigneCommandeServiceWCF2.xsd" MetadataType="Schema" ID="752ce882-1987-4fca-8a82-a8b9702703c9" SourceId="1" SourceUrl="http://localhost:61056/LigneCommandeServiceWCF.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

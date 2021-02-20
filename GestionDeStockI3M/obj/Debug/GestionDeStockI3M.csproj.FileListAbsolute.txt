@@ -1,0 +1,203 @@
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe.config
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.pdb
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csprojAssemblyReference.cache
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Form1.resources
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Properties.Resources.resources
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.GenerateResource.cache
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.CoreCompileInputs.cache
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.exe
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.pdb
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Dashboard.resources
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Fournisseurs.resources
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterProduit.resources
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Produits.resources
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterFournisseur.resources
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherProduitPourFournisseur.resources
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Commandes.resources
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.PrincipalForm.resources
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Ventes.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherInfoDeCommande.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherProduitPourFournisseur.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterFournisseur.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterProduit.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Commandes.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Dashboard.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Form1.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Fournisseurs.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.PrincipalForm.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Produits.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Properties.Resources.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Ventes.resources
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.GenerateResource.cache
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.CoreCompileInputs.cache
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.exe
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.pdb
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe.config
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.pdb
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csprojAssemblyReference.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csprojAssemblyReference.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherInfoDeCommande.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherProduitPourFournisseur.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterFournisseur.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterProduit.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Commandes.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Dashboard.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Form1.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Fournisseurs.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.PrincipalForm.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Produits.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Properties.Resources.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Ventes.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.GenerateResource.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.CoreCompileInputs.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.exe
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.pdb
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe.config
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.pdb
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe.config
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.pdb
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csprojAssemblyReference.cache
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherInfoDeCommande.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherProduitPourFournisseur.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterFournisseur.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterProduit.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Commandes.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Dashboard.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Form1.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Fournisseurs.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.PrincipalForm.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Produits.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Properties.Resources.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Ventes.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.GenerateResource.cache
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.CoreCompileInputs.cache
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.exe
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.pdb
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_annee.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_mois.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_jour.resources
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_semaine.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe.config
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.pdb
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csprojAssemblyReference.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherInfoDeCommande.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherProduitPourFournisseur.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterFournisseur.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterProduit.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Commandes.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Dashboard.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Form1.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Fournisseurs.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.PrincipalForm.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Produits.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Properties.Resources.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_annee.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_mois.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_jour.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_semaine.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Ventes.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.GenerateResource.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.CoreCompileInputs.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.exe
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.pdb
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe.config
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.pdb
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csprojAssemblyReference.cache
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherInfoDeCommande.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherProduitPourFournisseur.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterFournisseur.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterProduit.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Commandes.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Dashboard.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Form1.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Fournisseurs.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.PrincipalForm.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Produits.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Properties.Resources.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_annee.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_mois.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_jour.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_semaine.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Ventes.resources
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.GenerateResource.cache
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.CoreCompileInputs.cache
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.exe
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.pdb
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe.config
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.pdb
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csprojAssemblyReference.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherInfoDeCommande.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherProduitPourFournisseur.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterFournisseur.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterProduit.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Commandes.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Dashboard.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Form1.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Fournisseurs.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.PrincipalForm.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Produits.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Properties.Resources.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_annee.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_mois.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_jour.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_semaine.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Ventes.resources
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.GenerateResource.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.CoreCompileInputs.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.exe
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.pdb
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe.config
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.pdb
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csprojAssemblyReference.cache
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherInfoDeCommande.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherProduitPourFournisseur.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterFournisseur.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterProduit.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Commandes.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Dashboard.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Form1.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Fournisseurs.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.PrincipalForm.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Produits.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Properties.Resources.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_annee.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_mois.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_jour.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_semaine.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Ventes.resources
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.GenerateResource.cache
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.CoreCompileInputs.cache
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.exe
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.pdb
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe.config
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.exe
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\bin\Debug\GestionDeStockI3M.pdb
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csprojAssemblyReference.cache
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherInfoDeCommande.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AfficherProduitPourFournisseur.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterFournisseur.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.AjouterProduit.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Commandes.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Dashboard.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Form1.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Fournisseurs.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.PrincipalForm.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Produits.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Properties.Resources.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_annee.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_mois.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_jour.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Stat_semaine.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.Ventes.resources
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.GenerateResource.cache
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.csproj.CoreCompileInputs.cache
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.exe
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3M\obj\Debug\GestionDeStockI3M.pdb

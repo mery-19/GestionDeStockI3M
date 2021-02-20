@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="GestionDeStockI3MServiceWCF.ProduitServiceWCF" CodeBehind="ProduitServiceWCF.svc.cs" %>

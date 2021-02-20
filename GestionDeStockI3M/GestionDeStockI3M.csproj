@@ -1,0 +1,451 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E25CD4F5-8FC1-43CF-BCE0-565DDBA8AFFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>GestionDeStockI3M</RootNamespace>
+    <AssemblyName>GestionDeStockI3M</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AfficherInfoDeCommande.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfficherInfoDeCommande.Designer.cs">
+      <DependentUpon>AfficherInfoDeCommande.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AfficherProduitPourFournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AfficherProduitPourFournisseur.Designer.cs">
+      <DependentUpon>AfficherProduitPourFournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjouterFournisseur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterFournisseur.Designer.cs">
+      <DependentUpon>AjouterFournisseur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjouterProduit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterProduit.Designer.cs">
+      <DependentUpon>AjouterProduit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Commandes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Commandes.Designer.cs">
+      <DependentUpon>Commandes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\CommandeService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\DashboardService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\FournisseurService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\LigneCommandeService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\ProduitService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\UserService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Connected Services\VenteService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fournisseurs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fournisseurs.Designer.cs">
+      <DependentUpon>Fournisseurs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PrincipalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrincipalForm.Designer.cs">
+      <DependentUpon>PrincipalForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Produits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Produits.Designer.cs">
+      <DependentUpon>Produits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Stat_mois.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stat_mois.designer.cs">
+      <DependentUpon>Stat_mois.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stat_jour.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stat_jour.designer.cs">
+      <DependentUpon>Stat_jour.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stat_annee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stat_annee.Designer.cs">
+      <DependentUpon>Stat_annee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Stat_semaine.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Stat_semaine.Designer.cs">
+      <DependentUpon>Stat_semaine.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ventes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ventes.Designer.cs">
+      <DependentUpon>Ventes.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AfficherInfoDeCommande.resx">
+      <DependentUpon>AfficherInfoDeCommande.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AfficherProduitPourFournisseur.resx">
+      <DependentUpon>AfficherProduitPourFournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjouterFournisseur.resx">
+      <DependentUpon>AjouterFournisseur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjouterProduit.resx">
+      <DependentUpon>AjouterProduit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Commandes.resx">
+      <DependentUpon>Commandes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fournisseurs.resx">
+      <DependentUpon>Fournisseurs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrincipalForm.resx">
+      <DependentUpon>PrincipalForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Produits.resx">
+      <DependentUpon>Produits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Stat_annee.resx">
+      <DependentUpon>Stat_annee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stat_mois.resx">
+      <DependentUpon>Stat_mois.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stat_jour.resx">
+      <DependentUpon>Stat_jour.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Stat_semaine.resx">
+      <DependentUpon>Stat_semaine.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ventes.resx">
+      <DependentUpon>Ventes.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Connected Services\CommandeService\CommandeServiceWCF.wsdl" />
+    <None Include="Connected Services\CommandeService\CommandeServiceWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\CommandeService\CommandeServiceWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\CommandeService\CommandeServiceWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\CommandeService\GestionDeStockI3M.CommandeService.Commande.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\CommandeService\GestionDeStockI3M.CommandeService.ProduitCommande.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\DashboardService\DashboardServiceWCF.wsdl" />
+    <None Include="Connected Services\DashboardService\DashboardServiceWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DashboardService\DashboardServiceWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DashboardService\DashboardServiceWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\DashboardService\GestionDeStockI3M.DashboardService.Vente.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\FournisseurService\FournisseurServiceWCF.wsdl" />
+    <None Include="Connected Services\FournisseurService\FournisseurServiceWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\FournisseurService\FournisseurServiceWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\FournisseurService\FournisseurServiceWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\FournisseurService\GestionDeStockI3M.FournisseurService.Fournisseur.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\LigneCommandeService\LigneCommandeServiceWCF.wsdl" />
+    <None Include="Connected Services\LigneCommandeService\LigneCommandeServiceWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\LigneCommandeService\LigneCommandeServiceWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\LigneCommandeService\LigneCommandeServiceWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ProduitService\GestionDeStockI3M.ProduitService.Fournisseur.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ProduitService\GestionDeStockI3M.ProduitService.Produit.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\ProduitService\ProduitServiceWCF.wsdl" />
+    <None Include="Connected Services\ProduitService\ProduitServiceWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ProduitService\ProduitServiceWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ProduitService\ProduitServiceWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\UserService\GestionDeStockI3M.UserService.User.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\UserService\UserServiceWCF.wsdl" />
+    <None Include="Connected Services\UserService\UserServiceWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\UserService\UserServiceWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\UserService\UserServiceWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\VenteService\GestionDeStockI3M.VenteService.Vente.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Connected Services\VenteService\VenteServiceWCF.wsdl" />
+    <None Include="Connected Services\VenteService\VenteServiceWCF.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\VenteService\VenteServiceWCF1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\VenteService\VenteServiceWCF2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Connected Services\CommandeService\" />
+    <WCFMetadataStorage Include="Connected Services\DashboardService\" />
+    <WCFMetadataStorage Include="Connected Services\FournisseurService\" />
+    <WCFMetadataStorage Include="Connected Services\LigneCommandeService\" />
+    <WCFMetadataStorage Include="Connected Services\ProduitService\" />
+    <WCFMetadataStorage Include="Connected Services\UserService\" />
+    <WCFMetadataStorage Include="Connected Services\VenteService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CommandeService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CommandeService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\CommandeService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\FournisseurService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\FournisseurService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\FournisseurService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\LigneCommandeService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\LigneCommandeService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\LigneCommandeService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ProduitService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ProduitService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ProduitService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\UserService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\UserService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\UserService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DashboardService\DashboardServiceWCF.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DashboardService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DashboardService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\DashboardService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\VenteService\VenteServiceWCF.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\VenteService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\VenteService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\VenteService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

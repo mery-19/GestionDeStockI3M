@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ae31b6c2d36f456a93a46bdd15ba9e36" Name="Diagram1" ZoomLevel="52">
+        <EntityTypeShape EntityType="GestionDeStockModel.Commande" Width="1.5" PointX="9.5" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionDeStockModel.Fournisseur" Width="1.5" PointX="12.375" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionDeStockModel.Produit" Width="1.5" PointX="15.625" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionDeStockModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="GestionDeStockModel.Vente" Width="1.5" PointX="17.875" PointY="5.375" IsExpanded="true" />
+        <AssociationConnector Association="GestionDeStockModel.FK_Produit_Fournisseur" ManuallyRouted="false" />
+        <AssociationConnector Association="GestionDeStockModel.FK_Vente_Produit" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="GestionDeStockModel.LigneCommande" Width="1.5" PointX="12.25" PointY="5.5" />
+        <AssociationConnector Association="GestionDeStockModel.FK_LigneCommande_Commande" />
+        <AssociationConnector Association="GestionDeStockModel.FK_LigneCommande_Produit" />
+        <EntityTypeShape EntityType="GestionDeStockModel.User" Width="1.5" PointX="0.75" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

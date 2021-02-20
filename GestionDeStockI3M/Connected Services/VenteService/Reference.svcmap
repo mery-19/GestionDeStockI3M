@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1c38d687-34c3-4443-a568-7606033975ca" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61056/VenteServiceWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="VenteServiceWCF.xsd" MetadataType="Schema" ID="4cd84461-91a9-47f2-9003-715ab4fc925f" SourceId="1" SourceUrl="http://localhost:61056/VenteServiceWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="VenteServiceWCF1.xsd" MetadataType="Schema" ID="d256d949-581e-410f-8b39-ae86f8386228" SourceId="1" SourceUrl="http://localhost:61056/VenteServiceWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="VenteServiceWCF.disco" MetadataType="Disco" ID="88f99f07-4382-41ca-8a22-c6cb55037ea9" SourceId="1" SourceUrl="http://localhost:61056/VenteServiceWCF.svc?disco" />
+    <MetadataFile FileName="VenteServiceWCF.wsdl" MetadataType="Wsdl" ID="5ff06f38-3abe-4113-bfd6-f0edd1912bc6" SourceId="1" SourceUrl="http://localhost:61056/VenteServiceWCF.svc?wsdl" />
+    <MetadataFile FileName="VenteServiceWCF2.xsd" MetadataType="Schema" ID="e81bcb9d-6982-4faf-93fe-a70e19861b21" SourceId="1" SourceUrl="http://localhost:61056/VenteServiceWCF.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

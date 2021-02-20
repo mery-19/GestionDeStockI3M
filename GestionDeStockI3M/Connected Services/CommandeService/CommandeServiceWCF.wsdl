@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="CommandeServiceWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:61056/CommandeServiceWCF.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:61056/CommandeServiceWCF.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:61056/CommandeServiceWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ICommandeServiceWCF_add_InputMessage">
+    <wsdl:part name="parameters" element="tns:add" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_add_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_commandeEnCours_InputMessage">
+    <wsdl:part name="parameters" element="tns:commandeEnCours" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_commandeEnCours_OutputMessage">
+    <wsdl:part name="parameters" element="tns:commandeEnCoursResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_commandeEnRetard_InputMessage">
+    <wsdl:part name="parameters" element="tns:commandeEnRetard" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_commandeEnRetard_OutputMessage">
+    <wsdl:part name="parameters" element="tns:commandeEnRetardResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_commandeConfirme_InputMessage">
+    <wsdl:part name="parameters" element="tns:commandeConfirme" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_commandeConfirme_OutputMessage">
+    <wsdl:part name="parameters" element="tns:commandeConfirmeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_prixCommande_InputMessage">
+    <wsdl:part name="parameters" element="tns:prixCommande" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_prixCommande_OutputMessage">
+    <wsdl:part name="parameters" element="tns:prixCommandeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_confirmeCommande_InputMessage">
+    <wsdl:part name="parameters" element="tns:confirmeCommande" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_confirmeCommande_OutputMessage">
+    <wsdl:part name="parameters" element="tns:confirmeCommandeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:delete" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_GetProduitsOfCommande_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProduitsOfCommande" />
+  </wsdl:message>
+  <wsdl:message name="ICommandeServiceWCF_GetProduitsOfCommande_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProduitsOfCommandeResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ICommandeServiceWCF">
+    <wsdl:operation name="add">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommandeServiceWCF/add" message="tns:ICommandeServiceWCF_add_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommandeServiceWCF/addResponse" message="tns:ICommandeServiceWCF_add_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="commandeEnCours">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommandeServiceWCF/commandeEnCours" message="tns:ICommandeServiceWCF_commandeEnCours_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommandeServiceWCF/commandeEnCoursResponse" message="tns:ICommandeServiceWCF_commandeEnCours_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="commandeEnRetard">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommandeServiceWCF/commandeEnRetard" message="tns:ICommandeServiceWCF_commandeEnRetard_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommandeServiceWCF/commandeEnRetardResponse" message="tns:ICommandeServiceWCF_commandeEnRetard_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="commandeConfirme">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommandeServiceWCF/commandeConfirme" message="tns:ICommandeServiceWCF_commandeConfirme_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommandeServiceWCF/commandeConfirmeResponse" message="tns:ICommandeServiceWCF_commandeConfirme_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="prixCommande">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommandeServiceWCF/prixCommande" message="tns:ICommandeServiceWCF_prixCommande_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommandeServiceWCF/prixCommandeResponse" message="tns:ICommandeServiceWCF_prixCommande_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="confirmeCommande">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommandeServiceWCF/confirmeCommande" message="tns:ICommandeServiceWCF_confirmeCommande_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommandeServiceWCF/confirmeCommandeResponse" message="tns:ICommandeServiceWCF_confirmeCommande_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommandeServiceWCF/delete" message="tns:ICommandeServiceWCF_delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommandeServiceWCF/deleteResponse" message="tns:ICommandeServiceWCF_delete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProduitsOfCommande">
+      <wsdl:input wsaw:Action="http://tempuri.org/ICommandeServiceWCF/GetProduitsOfCommande" message="tns:ICommandeServiceWCF_GetProduitsOfCommande_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ICommandeServiceWCF/GetProduitsOfCommandeResponse" message="tns:ICommandeServiceWCF_GetProduitsOfCommande_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ICommandeServiceWCF" type="tns:ICommandeServiceWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="add">
+      <soap:operation soapAction="http://tempuri.org/ICommandeServiceWCF/add" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="commandeEnCours">
+      <soap:operation soapAction="http://tempuri.org/ICommandeServiceWCF/commandeEnCours" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="commandeEnRetard">
+      <soap:operation soapAction="http://tempuri.org/ICommandeServiceWCF/commandeEnRetard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="commandeConfirme">
+      <soap:operation soapAction="http://tempuri.org/ICommandeServiceWCF/commandeConfirme" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="prixCommande">
+      <soap:operation soapAction="http://tempuri.org/ICommandeServiceWCF/prixCommande" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="confirmeCommande">
+      <soap:operation soapAction="http://tempuri.org/ICommandeServiceWCF/confirmeCommande" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap:operation soapAction="http://tempuri.org/ICommandeServiceWCF/delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProduitsOfCommande">
+      <soap:operation soapAction="http://tempuri.org/ICommandeServiceWCF/GetProduitsOfCommande" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CommandeServiceWCF">
+    <wsdl:port name="BasicHttpBinding_ICommandeServiceWCF" binding="tns:BasicHttpBinding_ICommandeServiceWCF">
+      <soap:address location="http://localhost:61056/CommandeServiceWCF.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

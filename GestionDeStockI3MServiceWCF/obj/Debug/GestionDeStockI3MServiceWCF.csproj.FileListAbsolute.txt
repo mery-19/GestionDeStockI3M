@@ -1,0 +1,132 @@
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+D:\USER\Genie Informatique\Info2\S3\C# et dotNet\Projet\GestionDeStockI3M_05\GestionDeStockI3M\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb
+D:\USER\Genie Informatique\Info2\S3\Projet c#\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStockI3M_VS_Fin\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+C:\Users\ilham\OneDrive\Bureau\GestionDeStock-master\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStock-main\GestionDeStock-mas\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+C:\Users\merie\OneDrive\Bureau\GestionDeStock\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+C:\Users\SA\Downloads\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.dll
+D:\mery\Downloads\GestionDeStockVFWithAllEdit (1)\GestionDeStockVFSansModiMona\GestionDeStock\GestionDeStockI3MServiceWCF\obj\Debug\GestionDeStockI3MServiceWCF.pdb

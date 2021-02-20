@@ -1,0 +1,12 @@
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll.config
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.dll
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\GestionDeStockI3MServiceWCF.pdb
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.dll
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.dll
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.xml
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\bin\EntityFramework.SqlServer.xml
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Release\GestionDeStockI3MServiceWCF.csprojAssemblyReference.cache
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Release\GestionDeStockI3MServiceWCF.csproj.CoreCompileInputs.cache
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Release\GestionDeStockI3MServiceWCF.csproj.CopyComplete
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Release\GestionDeStockI3MServiceWCF.dll
+C:\Users\SA\Downloads\GestionDeStockI3M_VS\GestionDeStockI3M_VS\GestionDeStockI3MServiceWCF\obj\Release\GestionDeStockI3MServiceWCF.pdb

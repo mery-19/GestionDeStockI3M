@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="90b52c20-42a5-4dcc-88e9-8f5738a8f3ac" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:61056/DashboardServiceWCF.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DashboardServiceWCF.xsd" MetadataType="Schema" ID="fd6c613d-be5d-4280-a7b9-bc8d6e0af227" SourceId="1" SourceUrl="http://localhost:61056/DashboardServiceWCF.svc?xsd=xsd1" />
+    <MetadataFile FileName="DashboardServiceWCF1.xsd" MetadataType="Schema" ID="48b3cdf7-1d33-4bf7-b71b-6a4f98f36c16" SourceId="1" SourceUrl="http://localhost:61056/DashboardServiceWCF.svc?xsd=xsd2" />
+    <MetadataFile FileName="DashboardServiceWCF.disco" MetadataType="Disco" ID="5933a97b-73f3-4603-9a3b-4c940ef37bd0" SourceId="1" SourceUrl="http://localhost:61056/DashboardServiceWCF.svc?disco" />
+    <MetadataFile FileName="DashboardServiceWCF2.xsd" MetadataType="Schema" ID="4d7dea62-a2b7-4cfc-b5df-e8bc55acca10" SourceId="1" SourceUrl="http://localhost:61056/DashboardServiceWCF.svc?xsd=xsd0" />
+    <MetadataFile FileName="DashboardServiceWCF.wsdl" MetadataType="Wsdl" ID="38e117e1-23e0-4b72-bda5-0837c3cf3515" SourceId="1" SourceUrl="http://localhost:61056/DashboardServiceWCF.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

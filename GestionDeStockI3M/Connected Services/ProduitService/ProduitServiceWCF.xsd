@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfProduit">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Produit" nillable="true" type="tns:Produit" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfProduit" nillable="true" type="tns:ArrayOfProduit" />
+  <xs:complexType name="Produit">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Fournisseur" nillable="true" type="tns:Fournisseur" />
+      <xs:element minOccurs="0" name="LigneCommande" nillable="true" type="tns:ArrayOfLigneCommande" />
+      <xs:element minOccurs="0" name="Vente" nillable="true" type="tns:ArrayOfVente" />
+      <xs:element minOccurs="0" name="date_ajout" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="date_expiration" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="id_fournisseur" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="id_produit" type="xs:int" />
+      <xs:element minOccurs="0" name="image" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="nom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="prix_vente" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="quantite" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Produit" nillable="true" type="tns:Produit" />
+  <xs:complexType name="Fournisseur">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Produit" nillable="true" type="tns:ArrayOfProduit" />
+      <xs:element minOccurs="0" name="adresse" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="id_fournisseur" type="xs:int" />
+      <xs:element minOccurs="0" name="nom" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="phone" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Fournisseur" nillable="true" type="tns:Fournisseur" />
+  <xs:complexType name="ArrayOfLigneCommande">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="LigneCommande" nillable="true" type="tns:LigneCommande" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLigneCommande" nillable="true" type="tns:ArrayOfLigneCommande" />
+  <xs:complexType name="LigneCommande">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Commande" nillable="true" type="tns:Commande" />
+      <xs:element minOccurs="0" name="Produit" nillable="true" type="tns:Produit" />
+      <xs:element minOccurs="0" name="id_commande" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="id_ligneCommande" type="xs:int" />
+      <xs:element minOccurs="0" name="id_produit" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="prix_grossiste" nillable="true" type="xs:decimal" />
+      <xs:element minOccurs="0" name="quantite" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="LigneCommande" nillable="true" type="tns:LigneCommande" />
+  <xs:complexType name="Commande">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="LigneCommande" nillable="true" type="tns:ArrayOfLigneCommande" />
+      <xs:element minOccurs="0" name="confirme" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="date_arrive" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="date_commande" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="date_souhaite" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="id_commande" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Commande" nillable="true" type="tns:Commande" />
+  <xs:complexType name="ArrayOfVente">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Vente" nillable="true" type="tns:Vente" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfVente" nillable="true" type="tns:ArrayOfVente" />
+  <xs:complexType name="Vente">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Produit" nillable="true" type="tns:Produit" />
+      <xs:element minOccurs="0" name="date_ajout" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="id_produit" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="id_vente" type="xs:int" />
+      <xs:element minOccurs="0" name="quantite_vendu" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Vente" nillable="true" type="tns:Vente" />
+  <xs:complexType name="ArrayOfFournisseur">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Fournisseur" nillable="true" type="tns:Fournisseur" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfFournisseur" nillable="true" type="tns:ArrayOfFournisseur" />
+</xs:schema>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:61056/ProduitServiceWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" />
+  <xs:element name="findAll">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findAllResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="findAllResult" nillable="true" type="q1:ArrayOfProduit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="find">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="findResult" nillable="true" type="q2:Produit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="add">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="p" nillable="true" type="q3:Produit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="addResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findByFournisseur">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id_fourn" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findByFournisseurResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="findByFournisseurResult" nillable="true" type="q4:ArrayOfProduit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="updateQuantite">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="updateQuantiteResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="updateQuantiteResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findAllFournisseur">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findAllFournisseurResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="findAllFournisseurResult" nillable="true" type="q5:ArrayOfFournisseur" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findFournisseurByName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nom" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findFournisseurByNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="findFournisseurByNameResult" nillable="true" type="q6:Fournisseur" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findProductsByName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nom" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findProductsByNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="findProductsByNameResult" nillable="true" type="q7:ArrayOfProduit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findAvaibleProducts">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findAvaibleProductsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="findAvaibleProductsResult" nillable="true" type="q8:ArrayOfProduit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findProductsNotAvaible">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findProductsNotAvaibleResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="findProductsNotAvaibleResult" nillable="true" type="q9:ArrayOfProduit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findDestockedProduts">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findDestockedProdutsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="findDestockedProdutsResult" nillable="true" type="q10:ArrayOfProduit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="delete">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="deleteResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findProductsById">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="id" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="findProductsByIdResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="findProductsByIdResult" nillable="true" type="q11:Fournisseur" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="edit">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" minOccurs="0" name="p" nillable="true" type="q12:Produit" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="editResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

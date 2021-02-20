@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DashboardServiceWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:61056/DashboardServiceWCF.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:61056/DashboardServiceWCF.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:61056/DashboardServiceWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDashboardServiceWCF_nb_ventes_total_InputMessage">
+    <wsdl:part name="parameters" element="tns:nb_ventes_total" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nb_ventes_total_OutputMessage">
+    <wsdl:part name="parameters" element="tns:nb_ventes_totalResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nb_ventes_InputMessage">
+    <wsdl:part name="parameters" element="tns:nb_ventes" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nb_ventes_OutputMessage">
+    <wsdl:part name="parameters" element="tns:nb_ventesResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_gain_InputMessage">
+    <wsdl:part name="parameters" element="tns:gain" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_gain_OutputMessage">
+    <wsdl:part name="parameters" element="tns:gainResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_gain1_InputMessage">
+    <wsdl:part name="parameters" element="tns:gain1" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_gain1_OutputMessage">
+    <wsdl:part name="parameters" element="tns:gain1Response" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_prix_prod_InputMessage">
+    <wsdl:part name="parameters" element="tns:prix_prod" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_prix_prod_OutputMessage">
+    <wsdl:part name="parameters" element="tns:prix_prodResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_gain_tout_InputMessage">
+    <wsdl:part name="parameters" element="tns:gain_tout" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_gain_tout_OutputMessage">
+    <wsdl:part name="parameters" element="tns:gain_toutResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_perte_InputMessage">
+    <wsdl:part name="parameters" element="tns:perte" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_perte_OutputMessage">
+    <wsdl:part name="parameters" element="tns:perteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_findAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:findAll" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_findAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_findByMounth_InputMessage">
+    <wsdl:part name="parameters" element="tns:findByMounth" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_findByMounth_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findByMounthResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_findByYear_InputMessage">
+    <wsdl:part name="parameters" element="tns:findByYear" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_findByYear_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findByYearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_findByDay_InputMessage">
+    <wsdl:part name="parameters" element="tns:findByDay" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_findByDay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findByDayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_findnow_InputMessage">
+    <wsdl:part name="parameters" element="tns:findnow" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_findnow_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findnowResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_QuantiteMonth_InputMessage">
+    <wsdl:part name="parameters" element="tns:QuantiteMonth" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_QuantiteMonth_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QuantiteMonthResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nb_venteByMonth_InputMessage">
+    <wsdl:part name="parameters" element="tns:nb_venteByMonth" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nb_venteByMonth_OutputMessage">
+    <wsdl:part name="parameters" element="tns:nb_venteByMonthResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_gain_month_InputMessage">
+    <wsdl:part name="parameters" element="tns:gain_month" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_gain_month_OutputMessage">
+    <wsdl:part name="parameters" element="tns:gain_monthResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nb_produit_des_InputMessage">
+    <wsdl:part name="parameters" element="tns:nb_produit_des" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nb_produit_des_OutputMessage">
+    <wsdl:part name="parameters" element="tns:nb_produit_desResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_qu_InputMessage">
+    <wsdl:part name="parameters" element="tns:qu" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_qu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:quResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_QuantiteYear_InputMessage">
+    <wsdl:part name="parameters" element="tns:QuantiteYear" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_QuantiteYear_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QuantiteYearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nb_venteByYear_InputMessage">
+    <wsdl:part name="parameters" element="tns:nb_venteByYear" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nb_venteByYear_OutputMessage">
+    <wsdl:part name="parameters" element="tns:nb_venteByYearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_gain_year_InputMessage">
+    <wsdl:part name="parameters" element="tns:gain_year" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_gain_year_OutputMessage">
+    <wsdl:part name="parameters" element="tns:gain_yearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_perte_year_InputMessage">
+    <wsdl:part name="parameters" element="tns:perte_year" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_perte_year_OutputMessage">
+    <wsdl:part name="parameters" element="tns:perte_yearResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_QuantityWeek_InputMessage">
+    <wsdl:part name="parameters" element="tns:QuantityWeek" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_QuantityWeek_OutputMessage">
+    <wsdl:part name="parameters" element="tns:QuantityWeekResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_name_prod_InputMessage">
+    <wsdl:part name="parameters" element="tns:name_prod" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_name_prod_OutputMessage">
+    <wsdl:part name="parameters" element="tns:name_prodResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nbr_achat_InputMessage">
+    <wsdl:part name="parameters" element="tns:nbr_achat" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_nbr_achat_OutputMessage">
+    <wsdl:part name="parameters" element="tns:nbr_achatResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_q_v_m_InputMessage">
+    <wsdl:part name="parameters" element="tns:q_v_m" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_q_v_m_OutputMessage">
+    <wsdl:part name="parameters" element="tns:q_v_mResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_perte_mois_InputMessage">
+    <wsdl:part name="parameters" element="tns:perte_mois" />
+  </wsdl:message>
+  <wsdl:message name="IDashboardServiceWCF_perte_mois_OutputMessage">
+    <wsdl:part name="parameters" element="tns:perte_moisResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDashboardServiceWCF">
+    <wsdl:operation name="nb_ventes_total">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nb_ventes_total" message="tns:IDashboardServiceWCF_nb_ventes_total_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nb_ventes_totalResponse" message="tns:IDashboardServiceWCF_nb_ventes_total_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="nb_ventes">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nb_ventes" message="tns:IDashboardServiceWCF_nb_ventes_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nb_ventesResponse" message="tns:IDashboardServiceWCF_nb_ventes_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="gain">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/gain" message="tns:IDashboardServiceWCF_gain_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/gainResponse" message="tns:IDashboardServiceWCF_gain_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="gain1">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/gain1" message="tns:IDashboardServiceWCF_gain1_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/gain1Response" message="tns:IDashboardServiceWCF_gain1_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="prix_prod">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/prix_prod" message="tns:IDashboardServiceWCF_prix_prod_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/prix_prodResponse" message="tns:IDashboardServiceWCF_prix_prod_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="gain_tout">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/gain_tout" message="tns:IDashboardServiceWCF_gain_tout_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/gain_toutResponse" message="tns:IDashboardServiceWCF_gain_tout_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="perte">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/perte" message="tns:IDashboardServiceWCF_perte_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/perteResponse" message="tns:IDashboardServiceWCF_perte_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/findAll" message="tns:IDashboardServiceWCF_findAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/findAllResponse" message="tns:IDashboardServiceWCF_findAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findByMounth">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/findByMounth" message="tns:IDashboardServiceWCF_findByMounth_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/findByMounthResponse" message="tns:IDashboardServiceWCF_findByMounth_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findByYear">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/findByYear" message="tns:IDashboardServiceWCF_findByYear_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/findByYearResponse" message="tns:IDashboardServiceWCF_findByYear_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findByDay">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/findByDay" message="tns:IDashboardServiceWCF_findByDay_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/findByDayResponse" message="tns:IDashboardServiceWCF_findByDay_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findnow">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/findnow" message="tns:IDashboardServiceWCF_findnow_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/findnowResponse" message="tns:IDashboardServiceWCF_findnow_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QuantiteMonth">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/QuantiteMonth" message="tns:IDashboardServiceWCF_QuantiteMonth_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/QuantiteMonthResponse" message="tns:IDashboardServiceWCF_QuantiteMonth_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="nb_venteByMonth">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nb_venteByMonth" message="tns:IDashboardServiceWCF_nb_venteByMonth_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nb_venteByMonthResponse" message="tns:IDashboardServiceWCF_nb_venteByMonth_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="gain_month">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/gain_month" message="tns:IDashboardServiceWCF_gain_month_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/gain_monthResponse" message="tns:IDashboardServiceWCF_gain_month_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="nb_produit_des">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nb_produit_des" message="tns:IDashboardServiceWCF_nb_produit_des_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nb_produit_desResponse" message="tns:IDashboardServiceWCF_nb_produit_des_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="qu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/qu" message="tns:IDashboardServiceWCF_qu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/quResponse" message="tns:IDashboardServiceWCF_qu_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QuantiteYear">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/QuantiteYear" message="tns:IDashboardServiceWCF_QuantiteYear_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/QuantiteYearResponse" message="tns:IDashboardServiceWCF_QuantiteYear_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="nb_venteByYear">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nb_venteByYear" message="tns:IDashboardServiceWCF_nb_venteByYear_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nb_venteByYearResponse" message="tns:IDashboardServiceWCF_nb_venteByYear_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="gain_year">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/gain_year" message="tns:IDashboardServiceWCF_gain_year_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/gain_yearResponse" message="tns:IDashboardServiceWCF_gain_year_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="perte_year">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/perte_year" message="tns:IDashboardServiceWCF_perte_year_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/perte_yearResponse" message="tns:IDashboardServiceWCF_perte_year_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="QuantityWeek">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/QuantityWeek" message="tns:IDashboardServiceWCF_QuantityWeek_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/QuantityWeekResponse" message="tns:IDashboardServiceWCF_QuantityWeek_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="name_prod">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/name_prod" message="tns:IDashboardServiceWCF_name_prod_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/name_prodResponse" message="tns:IDashboardServiceWCF_name_prod_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="nbr_achat">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nbr_achat" message="tns:IDashboardServiceWCF_nbr_achat_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/nbr_achatResponse" message="tns:IDashboardServiceWCF_nbr_achat_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="q_v_m">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/q_v_m" message="tns:IDashboardServiceWCF_q_v_m_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/q_v_mResponse" message="tns:IDashboardServiceWCF_q_v_m_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="perte_mois">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDashboardServiceWCF/perte_mois" message="tns:IDashboardServiceWCF_perte_mois_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDashboardServiceWCF/perte_moisResponse" message="tns:IDashboardServiceWCF_perte_mois_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDashboardServiceWCF" type="tns:IDashboardServiceWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="nb_ventes_total">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/nb_ventes_total" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="nb_ventes">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/nb_ventes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gain">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/gain" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gain1">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/gain1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="prix_prod">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/prix_prod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gain_tout">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/gain_tout" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perte">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/perte" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findAll">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/findAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findByMounth">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/findByMounth" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findByYear">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/findByYear" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findByDay">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/findByDay" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findnow">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/findnow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuantiteMonth">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/QuantiteMonth" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="nb_venteByMonth">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/nb_venteByMonth" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gain_month">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/gain_month" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="nb_produit_des">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/nb_produit_des" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="qu">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/qu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuantiteYear">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/QuantiteYear" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="nb_venteByYear">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/nb_venteByYear" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="gain_year">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/gain_year" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perte_year">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/perte_year" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="QuantityWeek">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/QuantityWeek" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="name_prod">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/name_prod" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="nbr_achat">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/nbr_achat" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="q_v_m">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/q_v_m" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="perte_mois">
+      <soap:operation soapAction="http://tempuri.org/IDashboardServiceWCF/perte_mois" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DashboardServiceWCF">
+    <wsdl:port name="BasicHttpBinding_IDashboardServiceWCF" binding="tns:BasicHttpBinding_IDashboardServiceWCF">
+      <soap:address location="http://localhost:61056/DashboardServiceWCF.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

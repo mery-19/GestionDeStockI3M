@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="FournisseurServiceWCF" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:61056/FournisseurServiceWCF.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:61056/FournisseurServiceWCF.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:61056/FournisseurServiceWCF.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/GestionDeStockI3MServiceWCF" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IFournisseurServiceWCF_add_InputMessage">
+    <wsdl:part name="parameters" element="tns:add" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_add_OutputMessage">
+    <wsdl:part name="parameters" element="tns:addResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_findAll_InputMessage">
+    <wsdl:part name="parameters" element="tns:findAll" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_findAll_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findAllResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_find_InputMessage">
+    <wsdl:part name="parameters" element="tns:find" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_find_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_findName_InputMessage">
+    <wsdl:part name="parameters" element="tns:findName" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_findName_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_delete_InputMessage">
+    <wsdl:part name="parameters" element="tns:delete" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_delete_OutputMessage">
+    <wsdl:part name="parameters" element="tns:deleteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_modifier_InputMessage">
+    <wsdl:part name="parameters" element="tns:modifier" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_modifier_OutputMessage">
+    <wsdl:part name="parameters" element="tns:modifierResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_findNom_InputMessage">
+    <wsdl:part name="parameters" element="tns:findNom" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_findNom_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findNomResponse" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_findbyId_InputMessage">
+    <wsdl:part name="parameters" element="tns:findbyId" />
+  </wsdl:message>
+  <wsdl:message name="IFournisseurServiceWCF_findbyId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:findbyIdResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IFournisseurServiceWCF">
+    <wsdl:operation name="add">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/add" message="tns:IFournisseurServiceWCF_add_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/addResponse" message="tns:IFournisseurServiceWCF_add_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findAll">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/findAll" message="tns:IFournisseurServiceWCF_findAll_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/findAllResponse" message="tns:IFournisseurServiceWCF_findAll_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/find" message="tns:IFournisseurServiceWCF_find_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/findResponse" message="tns:IFournisseurServiceWCF_find_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findName">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/findName" message="tns:IFournisseurServiceWCF_findName_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/findNameResponse" message="tns:IFournisseurServiceWCF_findName_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/delete" message="tns:IFournisseurServiceWCF_delete_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/deleteResponse" message="tns:IFournisseurServiceWCF_delete_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="modifier">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/modifier" message="tns:IFournisseurServiceWCF_modifier_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/modifierResponse" message="tns:IFournisseurServiceWCF_modifier_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findNom">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/findNom" message="tns:IFournisseurServiceWCF_findNom_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/findNomResponse" message="tns:IFournisseurServiceWCF_findNom_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="findbyId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/findbyId" message="tns:IFournisseurServiceWCF_findbyId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IFournisseurServiceWCF/findbyIdResponse" message="tns:IFournisseurServiceWCF_findbyId_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IFournisseurServiceWCF" type="tns:IFournisseurServiceWCF">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="add">
+      <soap:operation soapAction="http://tempuri.org/IFournisseurServiceWCF/add" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findAll">
+      <soap:operation soapAction="http://tempuri.org/IFournisseurServiceWCF/findAll" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="find">
+      <soap:operation soapAction="http://tempuri.org/IFournisseurServiceWCF/find" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findName">
+      <soap:operation soapAction="http://tempuri.org/IFournisseurServiceWCF/findName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="delete">
+      <soap:operation soapAction="http://tempuri.org/IFournisseurServiceWCF/delete" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="modifier">
+      <soap:operation soapAction="http://tempuri.org/IFournisseurServiceWCF/modifier" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findNom">
+      <soap:operation soapAction="http://tempuri.org/IFournisseurServiceWCF/findNom" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="findbyId">
+      <soap:operation soapAction="http://tempuri.org/IFournisseurServiceWCF/findbyId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FournisseurServiceWCF">
+    <wsdl:port name="BasicHttpBinding_IFournisseurServiceWCF" binding="tns:BasicHttpBinding_IFournisseurServiceWCF">
+      <soap:address location="http://localhost:61056/FournisseurServiceWCF.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

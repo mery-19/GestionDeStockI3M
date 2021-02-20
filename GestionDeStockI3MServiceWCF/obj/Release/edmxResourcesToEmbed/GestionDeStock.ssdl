@@ -1,0 +1,152 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="GestionDeStockModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Commande">
+    <Key>
+      <PropertyRef Name="id_commande" />
+    </Key>
+    <Property Name="id_commande" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="date_arrive" Type="date" />
+    <Property Name="date_souhaite" Type="date" />
+    <Property Name="confirme" Type="bit" />
+    <Property Name="date_commande" Type="date" />
+  </EntityType>
+  <EntityType Name="Fournisseur">
+    <Key>
+      <PropertyRef Name="id_fournisseur" />
+    </Key>
+    <Property Name="id_fournisseur" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nom" Type="varchar" MaxLength="50" />
+    <Property Name="adresse" Type="varchar" MaxLength="50" />
+    <Property Name="email" Type="varchar" MaxLength="50" />
+    <Property Name="phone" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="LigneCommande">
+    <Key>
+      <PropertyRef Name="id_ligneCommande" />
+    </Key>
+    <Property Name="id_ligneCommande" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_produit" Type="int" />
+    <Property Name="id_commande" Type="int" />
+    <Property Name="quantite" Type="int" />
+    <Property Name="prix_grossiste" Type="decimal" Precision="10" Scale="2" />
+  </EntityType>
+  <EntityType Name="Produit">
+    <Key>
+      <PropertyRef Name="id_produit" />
+    </Key>
+    <Property Name="id_produit" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_fournisseur" Type="int" />
+    <Property Name="nom" Type="varchar" MaxLength="50" />
+    <Property Name="image" Type="varchar" MaxLength="250" />
+    <Property Name="prix_vente" Type="numeric" Precision="10" Scale="2" />
+    <Property Name="quantite" Type="int" />
+    <Property Name="date_expiration" Type="date" />
+    <Property Name="date_ajout" Type="date" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="id_user" />
+    </Key>
+    <Property Name="id_user" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="login" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="passeword" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Vente">
+    <Key>
+      <PropertyRef Name="id_vente" />
+    </Key>
+    <Property Name="id_vente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="id_produit" Type="int" />
+    <Property Name="quantite_vendu" Type="int" />
+    <Property Name="date_ajout" Type="date" />
+  </EntityType>
+  <Association Name="FK_LigneCommande_Commande">
+    <End Role="Commande" Type="Self.Commande" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="LigneCommande" Type="Self.LigneCommande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Commande">
+        <PropertyRef Name="id_commande" />
+      </Principal>
+      <Dependent Role="LigneCommande">
+        <PropertyRef Name="id_commande" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_LigneCommande_Produit">
+    <End Role="Produit" Type="Self.Produit" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="LigneCommande" Type="Self.LigneCommande" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produit">
+        <PropertyRef Name="id_produit" />
+      </Principal>
+      <Dependent Role="LigneCommande">
+        <PropertyRef Name="id_produit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Produit_Fournisseur">
+    <End Role="Fournisseur" Type="Self.Fournisseur" Multiplicity="0..1" />
+    <End Role="Produit" Type="Self.Produit" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Fournisseur">
+        <PropertyRef Name="id_fournisseur" />
+      </Principal>
+      <Dependent Role="Produit">
+        <PropertyRef Name="id_fournisseur" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Vente_Produit">
+    <End Role="Produit" Type="Self.Produit" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Vente" Type="Self.Vente" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Produit">
+        <PropertyRef Name="id_produit" />
+      </Principal>
+      <Dependent Role="Vente">
+        <PropertyRef Name="id_produit" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="GestionDeStockModelStoreContainer">
+    <EntitySet Name="Commande" EntityType="Self.Commande" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Fournisseur" EntityType="Self.Fournisseur" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="LigneCommande" EntityType="Self.LigneCommande" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Produit" EntityType="Self.Produit" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="User" EntityType="Self.User" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Vente" EntityType="Self.Vente" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_LigneCommande_Commande" Association="Self.FK_LigneCommande_Commande">
+      <End Role="Commande" EntitySet="Commande" />
+      <End Role="LigneCommande" EntitySet="LigneCommande" />
+    </AssociationSet>
+    <AssociationSet Name="FK_LigneCommande_Produit" Association="Self.FK_LigneCommande_Produit">
+      <End Role="Produit" EntitySet="Produit" />
+      <End Role="LigneCommande" EntitySet="LigneCommande" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Produit_Fournisseur" Association="Self.FK_Produit_Fournisseur">
+      <End Role="Fournisseur" EntitySet="Fournisseur" />
+      <End Role="Produit" EntitySet="Produit" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Vente_Produit" Association="Self.FK_Vente_Produit">
+      <End Role="Produit" EntitySet="Produit" />
+      <End Role="Vente" EntitySet="Vente" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
